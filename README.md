@@ -2,8 +2,6 @@
 
 A Python-based trading bot that detects candlestick patterns like Bullish Engulfing, Bearish Engulfing, Hammer, Shooting Star, and more. The bot generates actionable "Buy" and "Sell" signals based on trend and volume validation.
 
----
-
 ## **Features**
 - Detects multiple candlestick patterns, including:
   - **Bullish and Bearish Engulfing**
@@ -16,14 +14,10 @@ A Python-based trading bot that detects candlestick patterns like Bullish Engulf
   - **Volume above average** for volume confirmation.
 - Plots **candlestick charts with buy/sell markers**.
 
----
-
 ## **Requirements**
-Before running the bot, make sure you have the following installed:
 - Python 3.x
-- Required libraries: 
-  - `pandas`, `numpy`, `yfinance`, `mplfinance`, `pandas-ta`
+- Required libraries: `pandas`, `numpy`, `yfinance`, `mplfinance`, `pandas-ta`
 
-Install them using:
-```bash
-pip install -r requirements.txt
+## **Sample Output**
+-Blue upward arrow (^): Buy signal.
+-Orange downward arrow (v): Sell signal.
