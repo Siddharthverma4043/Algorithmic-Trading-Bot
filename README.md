@@ -18,6 +18,4 @@ A Python-based trading bot that detects candlestick patterns like Bullish Engulf
 - Python 3.x
 - Required libraries: `pandas`, `numpy`, `yfinance`, `mplfinance`, `pandas-ta`
 
-## **Sample Output**
--Blue upward arrow (^): Buy signal.
--Orange downward arrow (v): Sell signal.
+
