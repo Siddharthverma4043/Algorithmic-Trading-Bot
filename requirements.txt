@@ -1,5 +1,0 @@
-yfinance
-pandas
-pandas-ta
-mplfinance
-numpy
